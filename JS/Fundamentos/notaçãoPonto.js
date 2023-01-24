@@ -8,7 +8,7 @@ console.log(obj1.nome)
 function Obj(nome) {
   this.nome = nome // this torna visivel para fora do escopo
   this.exec = function() {
-    console.log('ecex...')
+    console.log('Exec...')
   }
 }
 

@@ -1,4 +1,4 @@
-// Object.preventExtensivons
+// Object.preventExtensions
 const produto = Object.preventExtensions({
     nome: 'Qualquer', preço: 1.99, tag: "promoção"
 })
@@ -20,4 +20,4 @@ delete pessoa.idade
 pessoa.idade = 45
 console.log(pessoa) // atributos podem ser alterados, mas não adicionados nem deletados
 
-// Object.freeze = slado + valores constantes 
+// Object.freeze = selado + valores constantes 
